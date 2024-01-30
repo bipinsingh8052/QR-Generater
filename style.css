@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 218vh;
+    background: linear-gradient(135deg ,rgb(59, 40, 40),rgb(79, 64, 64));
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.main{
+    width: 400px;
+   /* max-height: 800px;
+   min-height: 300px; */
+   height: auto;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+}
+.heading{
+    height: 100px;
+    width: 350px;
+    margin: 15px;
+    /* border: 2px solid black; */
+    /* gap: 200px; */
+}
+.heading >h2{
+    font-size: 23px;
+    font-weight: 550;
+    font-display:inherit;
+    
+}
+.heading >input{
+    height: 45px;
+    width: 100%;
+    font-size: 18px;
+    margin-top: 25px;
+    padding-left: 10px;
+    border-radius: 10px;
+    
+}
+
+.btn{
+    height: 45px;
+    width: 350px;
+    margin: 20px;
+    border-radius: 20px;
+}
+.btn >button{
+    height: 100%;
+    width: 100%;
+    font-size: 20px;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background: linear-gradient(130deg,rgb(32, 32, 160) ,rgb(11, 11, 154));
+
+}
+.btn >button:hover{
+    border-top: 2px solid rgb(112, 205, 112);
+    border-bottom: 2px solid rgb(112, 205, 112);
+    border-left: 2px solid rgb(112, 205, 112);
+    border-right: 2px solid rgb(112, 205, 112);
+
+}
+.QR{
+    height: 200px;
+    width: 200px;
+    border: 0.5px solid black;
+    border-radius: 8px;
+}
+.QR >img{
+    height: 95%;
+    width: 95%;
+    margin: 5px;
+
+}
+.Generate{
+    /* display: none; */
+}
